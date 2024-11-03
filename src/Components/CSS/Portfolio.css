@@ -1,0 +1,137 @@
+.port-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.port-section .text{
+    width: 40%;
+}
+.port-section .text .text-sec{
+    margin-top: 25%;
+    margin-left: 10%;
+}
+.port-section .text .text-sec h3{
+    font-size: 30px;
+}
+.port-section .text .text-sec p{
+    color: #9C9999;
+    margin-top: 20px;
+}
+.circle {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Same as width for a perfect circle */
+    border-radius: 50%;
+    background-color: #272727; /* White background or any preferred color */
+    color: #D2C9C9; /* Text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+    border: 2px solid #9C9999;
+    margin-top: 40px;
+  }
+ 
+  
+ 
+.port-section .image{
+    width: 60%;
+}
+.nav-tab{
+    margin-left: 15%;
+    margin-top: 15%;
+}
+@media (max-width: 576px) {
+    .port-section {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .port-section .text {
+        width: 100%;
+    }
+    .port-section .text .text-sec {
+        margin-top: 5%;
+        margin-left: 2%;
+        align-items: center;
+        justify-content: center;
+    }
+    .port-section .text .text-sec h3 {
+        font-size: 20px;
+    }
+    .port-section .text .text-sec p {
+        color: #9C9999;
+        margin-top: 10px;
+    }
+    .circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #272727;
+        color: #D2C9C9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border: 2px solid #9C9999;
+        margin: 40px auto 0; /* Center horizontally */
+    }
+    .port-section .image {
+        width: 100%;
+    }
+    .nav-tab {
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    .port-section {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .port-section .text {
+        width: 100%;
+    }
+    .port-section .text .text-sec {
+        margin-top: 5%;
+        margin-left: 2%;
+        align-items: center;
+        justify-content: center;
+    }
+    .port-section .text .text-sec h3 {
+        font-size: 20px;
+    }
+    .port-section .text .text-sec p {
+        color: #9C9999;
+        margin-top: 10px;
+    }
+    .circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #272727;
+        color: #D2C9C9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border: 2px solid #9C9999;
+        margin: 40px auto 0; /* Center horizontally */
+    }
+    .port-section .image {
+        width: 100%;
+    }
+    .nav-tab {
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+}
